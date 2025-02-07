@@ -1,0 +1,9 @@
+.CharacterDetails {
+    padding: 20px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

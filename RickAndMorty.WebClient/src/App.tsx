@@ -1,10 +1,11 @@
 import React from 'react';
+import Routing from './routes/Routing.tsx';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      App
+       <Routing />
     </div>
   );
 }

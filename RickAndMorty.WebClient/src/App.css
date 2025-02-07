@@ -1,4 +1,6 @@
 .App {
   text-align: center;
+  background-color: rgb(248, 255, 246);
+  font-family: cursive;
+  font-size: 120%;
 }
-
