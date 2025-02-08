@@ -28,7 +28,7 @@ const CharactersHome = () => {
       <StatusFilter onChange={setStatusFilter} />
       <p></p>
 
-      <Card.Group itemsPerRow={4}>
+      <Card.Group itemsPerRow={5}>
         {characters.map((char: any) => (
           <CharacterCard key={char.id} character={char} />
         ))}

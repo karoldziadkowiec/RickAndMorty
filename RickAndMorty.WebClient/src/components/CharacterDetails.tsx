@@ -14,7 +14,8 @@ const CharacterDetails = () => {
       .catch((error) => console.error("Error fetching character:", error));
   }, [id]);
 
-  if (!character) return <p>Loading...</p>;
+  if(!character) 
+    return <p>Loading...</p>;
 
   return (
     <div className = "CharacterDetails">
